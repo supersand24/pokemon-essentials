@@ -399,3 +399,48 @@ Description = Pokémon World Championships National Champion Ribbon.
 Name = World Champion Ribbon
 IconPosition = 79
 Description = Pokémon World Championships World Champion Ribbon.
+#-------------------------------
+[HOENNGYM1]
+Name = Balance Ribbon
+IconPosition = 80
+Description = Hoenn Balance Badge Winner!
+#-------------------------------
+[HOENNGYM2]
+Name = Dynamo Ribbon
+IconPosition = 81
+Description = Hoenn Dynamo Badge Winner!
+#-------------------------------
+[HOENNGYM3]
+Name = Heat Ribbon
+IconPosition = 82
+Description = Hoenn Heat Badge Winner!
+#-------------------------------
+[HOENNGYM4]
+Name = Stone Ribbon
+IconPosition = 83
+Description = Hoenn Stone Badge Winner!
+#-------------------------------
+[HOENNGYM5]
+Name = Cool Ribbon
+IconPosition = 84
+Description = Hoenn Cool Badge Winner!
+#-------------------------------
+[HOENNGYM6]
+Name = Cool Ribbon
+IconPosition = 85
+Description = Hoenn Cool Badge Winner!
+#-------------------------------
+[HOENNGYM7]
+Name = Cool Ribbon
+IconPosition = 86
+Description = Hoenn Cool Badge Winner!
+#-------------------------------
+[HOENNGYM8]
+Name = Cool Ribbon
+IconPosition = 87
+Description = Hoenn Cool Badge Winner!
+#-------------------------------
+[ALPHA]
+Name = Pre-Alpha
+IconPosition = 88
+Description = From a time when the world was less complete.
