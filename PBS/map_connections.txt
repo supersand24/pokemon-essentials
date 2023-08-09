@@ -1,2 +1,16 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Route 102 (6) - Oldale Town (1)
+6,East,28,1,West,0
+# Route 103 (5) - Oldale Town (1)
+5,South,0,1,North,0
+# Route 101 (2) - Oldale Town (1)
+2,North,0,1,South,0
+# Route 103 (5) - Route 102 (6)
+5,West,0,6,East,0
+# Route 101 (2) - Route 102 (6)
+2,West,0,6,East,48
+# Littleroot Town (3) - Route 102 (6)
+3,West,0,6,East,68
+# Littleroot Town (3) - Route 101 (2)
+3,North,0,2,South,0

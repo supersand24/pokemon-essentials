@@ -1,4 +1,31 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[001]   # Intro
-Name = Intro
+[001]   # Oldale Town
+Name = Oldale Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[002]   # Route 101
+Name = Route 101
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[003]   # Littleroot Town
+Name = Littleroot Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[005]   # Route 103
+Name = Route 103
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[006]   # Route 102
+Name = Route 102
+Outdoor = true
+ShowArea = true
+Bicycle = true
