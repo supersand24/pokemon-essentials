@@ -49,11 +49,14 @@ class GameStats
   attr_accessor :battle_points_won, :battle_points_spent
   attr_accessor :soot_collected
   # Special stats
-  attr_accessor :gym_leader_attempts   # An array of integers
-  attr_accessor :times_to_get_badges   # An array of times in seconds
+  attr_accessor :gym_leader_attempts      # An array of integers
+  attr_accessor :gym_leader_battles_won   # An array of integers
+  attr_accessor :times_to_get_badges      # An array of times in seconds
   attr_accessor :elite_four_attempts
   attr_accessor :hall_of_fame_entry_count   # See also Game Variable 13
   attr_accessor :time_to_enter_hall_of_fame   # In seconds
+  attr_accessor :rival_battles            # An array of integers
+  attr_accessor :rival_battles_won        # An array of integers
   attr_accessor :safari_pokemon_caught, :most_captures_per_safari_game
   attr_accessor :bug_contest_count, :bug_contest_wins
   # Play
@@ -133,10 +136,13 @@ class GameStats
     @soot_collected                = 0
     # Special stats
     @gym_leader_attempts           = [0] * 50   # Incremented in Gym Leader events (50 is arbitrary but suitably large)
-    @times_to_get_badges           = []   # Set with set_time_to_badge(number) in Gym Leader events
-    @elite_four_attempts           = 0   # Incremented in door event leading to the first E4 member
-    @hall_of_fame_entry_count      = 0   # Incremented in Hall of Fame event
-    @time_to_enter_hall_of_fame    = 0   # Set with set_time_to_hall_of_fame in Hall of Fame event
+    @gym_leader_battles_won        = [0] * 50   # Incremented in Gym Leader events (50 is arbitrary but suitably large)
+    @times_to_get_badges           = []         # Set with set_time_to_badge(number) in Gym Leader events
+    @elite_four_attempts           = 0          # Incremented in door event leading to the first E4 member
+    @hall_of_fame_entry_count      = 0          # Incremented in Hall of Fame event
+    @time_to_enter_hall_of_fame    = 0          # Set with set_time_to_hall_of_fame in Hall of Fame event
+    @rival_battles                 = [0] * 5    # Incremented in Rival events
+    @rival_battles_won             = [0] * 5    # Incremented in Rival events
     @safari_pokemon_caught         = 0
     @most_captures_per_safari_game = 0
     @bug_contest_count             = 0

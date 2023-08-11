@@ -157,10 +157,25 @@ end
 #===============================================================================
 #
 #===============================================================================
+MenuHandlers.add(:pokegear_menu, :quests, {
+  "name"      => _INTL("Quests"),
+  "icon_name" => "quests",
+  "order"     => 10,
+  "effect"    => proc { |menu|
+    pbPlayDecisionSE
+    pbFadeOutIn {
+      scene = QuestList_Scene.new
+      screen = QuestList_Screen.new(scene)
+      screen.pbStartScreen
+    }
+    next false
+  }
+})
+
 MenuHandlers.add(:pokegear_menu, :map, {
   "name"      => _INTL("Map"),
   "icon_name" => "map",
-  "order"     => 10,
+  "order"     => 20,
   "effect"    => proc { |menu|
     pbFadeOutIn do
       scene = PokemonRegionMap_Scene.new(-1, false)
@@ -179,7 +194,7 @@ MenuHandlers.add(:pokegear_menu, :map, {
 MenuHandlers.add(:pokegear_menu, :phone, {
   "name"      => _INTL("Phone"),
   "icon_name" => "phone",
-  "order"     => 20,
+  "order"     => 30,
 #  "condition" => proc { next $PokemonGlobal.phone && $PokemonGlobal.phone.contacts.length > 0 },
   "effect"    => proc { |menu|
     pbFadeOutIn do
@@ -194,7 +209,7 @@ MenuHandlers.add(:pokegear_menu, :phone, {
 MenuHandlers.add(:pokegear_menu, :jukebox, {
   "name"      => _INTL("Jukebox"),
   "icon_name" => "jukebox",
-  "order"     => 30,
+  "order"     => 40,
   "effect"    => proc { |menu|
     pbFadeOutIn do
       scene = PokemonJukebox_Scene.new
