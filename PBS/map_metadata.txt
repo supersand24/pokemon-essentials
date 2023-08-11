@@ -1,31 +1,181 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [001]   # Oldale Town
-Name = Oldale Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [002]   # Route 101
-Name = Route 101
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [003]   # Littleroot Town
-Name = Littleroot Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[004]   # Professor Birch's Lab
+#-------------------------------
 [005]   # Route 103
-Name = Route 103
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [006]   # Route 102
-Name = Route 102
 Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[007]   # Petalburg City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[008]   # Petalburg City Gym
+#-------------------------------
+[009]   # Route 104
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[010]   # \PN's House
+#-------------------------------
+[011]   # Pokémon Center
+#-------------------------------
+[012]   # Poke Mart
+#-------------------------------
+[013]   # Altering Cave
+ShowArea = true
+#-------------------------------
+[014]   # New Mauville Cave
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[015]   # Route 110
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[016]   # Mauville City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[017]   # Fiery Path
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[018]   # Route 113
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[019]   # Game Corner
+#-------------------------------
+[020]   # Route 111
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[021]   # Route 112
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[022]   # Fallarbor Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[023]   # Mauville City Gym
+#-------------------------------
+[024]   # Lavaridge Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[025]   # Lavaridge Town Gym
+#-------------------------------
+[026]   # Mt Chimney
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[027]   # Jagged Pass
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[028]   # Route 114
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[029]   # Route 117
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[030]   # Verdanturf Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[031]   # Rusturf Tunnel
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[032]   # Route 116
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[033]   # Route 115
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[034]   # Rustboro City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[035]   # Meteor Falls
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[036]   # Rustboro City Gym
+#-------------------------------
+[037]   # Petalburg Woods
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[038]   # Route 105
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[039]   # Route 106
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[040]   # Dewford Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[041]   # Cycling Checkpoint
+Bicycle = true
+#-------------------------------
+[042]   # Hidden Grove
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[043]   # Hidden Cave
 ShowArea = true
 Bicycle = true
