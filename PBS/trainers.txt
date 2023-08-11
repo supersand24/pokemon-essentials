@@ -1,1 +1,19 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[RIVAL1,Rival1,1]
+LoseText = ...
+Pokemon = ZORUA,4
+	Moves = SCRATCH,LEER
+Pokemon = PANPOUR,3
+#-------------------------------
+[RIVAL1,Rival1,2]
+LoseText = ...
+Pokemon = ZORUA,4
+	Moves = SCRATCH,LEER
+Pokemon = PANSAGE,3
+#-------------------------------
+[RIVAL1,Rival1,3]
+LoseText = ...
+Pokemon = ZORUA,4
+	Moves = SCRATCH,LEER
+Pokemon = PANSEAR,3
