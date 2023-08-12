@@ -3,17 +3,26 @@
 [RIVAL1,Rival1,1]
 LoseText = ...
 Pokemon = ZORUA,4
-	Moves = SCRATCH,LEER
+    Moves = SCRATCH,LEER
 Pokemon = PANPOUR,3
 #-------------------------------
 [RIVAL1,Rival1,2]
 LoseText = ...
 Pokemon = ZORUA,4
-	Moves = SCRATCH,LEER
+    Moves = SCRATCH,LEER
 Pokemon = PANSAGE,3
 #-------------------------------
 [RIVAL1,Rival1,3]
 LoseText = ...
 Pokemon = ZORUA,4
-	Moves = SCRATCH,LEER
+    Moves = SCRATCH,LEER
 Pokemon = PANSEAR,3
+#-------------------------------
+[YOUNGSTER,Jimmy]
+LoseText = ...
+Pokemon = ZIGZAGOON,4
+#-------------------------------
+[BUGCATCHER,Andrew]
+LoseText = ...
+Pokemon = SPINARAK,3
+Pokemon = SURSKIT,4

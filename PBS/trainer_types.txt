@@ -45,9 +45,54 @@ Name = Beauty
 Gender = Female
 BaseMoney = 56
 #-------------------------------
+[BEAUTY1]
+Name = Beauty
+Gender = Female
+BaseMoney = 56
+#-------------------------------
+[GUITARIST]
+Name = Guitarist
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[ROUGHNECK]
+Name = Roughneck
+Gender = Male
+BaseMoney = 32
+#-------------------------------
 [BIKER]
 Name = Biker
 Gender = Male
+BaseMoney = 32
+#-------------------------------
+[JOGGER]
+Name = Jogger
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[CYCLIST_M]
+Name = Cyclist
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[CYCLIST_F]
+Name = Cyclist
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[SNOWBOARDER]
+Name = Snow Boarder
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[SNOWSKIER_M]
+Name = Snow Skier
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[SNOWSKIER_F]
+Name = Snow Skier
+Gender = Female
 BaseMoney = 32
 #-------------------------------
 [BIRDKEEPER_M]
@@ -60,6 +105,26 @@ Name = Bird Keeper
 Gender = Male
 BaseMoney = 32
 #-------------------------------
+[BATTLEGIRL]
+Name = Battle Girl
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[KIMONOGIRL]
+Name = Kimono Girl
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[COWGIRL]
+Name = Cow Girl
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[RANCHER]
+Name = Rancher
+Gender = Male
+BaseMoney = 24
+#-------------------------------
 [BUGCATCHER]
 Name = Bug Catcher
 Gender = Male
@@ -70,10 +135,51 @@ Name = Bug Catcher
 Gender = Male
 BaseMoney = 16
 #-------------------------------
+[OFFICER]
+Name = Police Officer
+Gender = Male
+BaseMoney = 64
+SkillLevel = 32
+#-------------------------------
+[INVESTIGATOR]
+Name = Private Infestigator
+Gender = Male
+BaseMoney = 64
+#-------------------------------
 [BURGLAR]
 Name = Burglar
 Gender = Male
 BaseMoney = 88
+SkillLevel = 32
+#-------------------------------
+[COLLECTOR]
+Name = Collector
+Gender = Male
+BaseMoney = 30
+SkillLevel = 32
+#-------------------------------
+[COLLECTOR1]
+Name = Collector
+Gender = Male
+BaseMoney = 30
+SkillLevel = 32
+#-------------------------------
+[COLLECTOR2]
+Name = Collector
+Gender = Male
+BaseMoney = 30
+SkillLevel = 32
+#-------------------------------
+[CLOWN]
+Name = Clown
+Gender = Male
+BaseMoney = 30
+SkillLevel = 32
+#-------------------------------
+[FIREBREATHER]
+Name = Firebreather
+Gender = Male
+BaseMoney = 30
 SkillLevel = 32
 #-------------------------------
 [FISHERMAN]
@@ -85,6 +191,21 @@ BaseMoney = 32
 Name = Gentleman
 Gender = Male
 BaseMoney = 72
+#-------------------------------
+[GENTLEMAN1]
+Name = Gentleman
+Gender = Male
+BaseMoney = 72
+#-------------------------------
+[SOCIALITE]
+Name = Socialite
+Gender = Female
+BaseMoney = 72
+#-------------------------------
+[RICHBOY]
+Name = Rich Boy
+Gender = Male
+BaseMoney = 100
 #-------------------------------
 [HIKER]
 Name = Hiker
@@ -102,8 +223,28 @@ Gender = Female
 BaseMoney = 160
 SkillLevel = 72
 #-------------------------------
-[POKEMANIAC]
-Name = Poké Maniac
+[POKEFAN_M]
+Name = Poké Fan
+Gender = Male
+BaseMoney = 64
+#-------------------------------
+[POKEFAN1_M]
+Name = Poké Fan
+Gender = Male
+BaseMoney = 64
+#-------------------------------
+[POKEFAN_F]
+Name = Poké Fan
+Gender = Female
+BaseMoney = 64
+#-------------------------------
+[TVREPORTER]
+Name = Reporter
+Gender = Female
+BaseMoney = 64
+#-------------------------------
+[TVCAMERAMAN]
+Name = Cameraman
 Gender = Male
 BaseMoney = 64
 #-------------------------------
@@ -146,6 +287,11 @@ BaseMoney = 48
 Name = Super Nerd
 Gender = Male
 BaseMoney = 48
+#-------------------------------
+[BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
 #-------------------------------
 [BLACKBELT1]
 Name = Black Belt
@@ -197,6 +343,21 @@ Name = Ace Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
+[VETERAN]
+Name = Veteran
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[DRAGONTAMER]
+Name = Dragon Tamer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEKID]
+Name = Youngster
+Gender = Male
+BaseMoney = 20
+#-------------------------------
 [YOUNGSTER]
 Name = Youngster
 Gender = Male
@@ -206,6 +367,21 @@ BaseMoney = 16
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+#-------------------------------
+[SCHOOLKID_M]
+Name = School Kid
+Gender = Male
+BaseMoney = 20
+#-------------------------------
+[SCHOOLKID1_M]
+Name = School Kid
+Gender = Male
+BaseMoney = 20
+#-------------------------------
+[SCHOOLKID_F]
+Name = School Kid
+Gender = Female
+BaseMoney = 20
 #-------------------------------
 [LASS]
 Name = Lass
@@ -217,12 +393,47 @@ Name = Lass
 Gender = Female
 BaseMoney = 16
 #-------------------------------
+[IDOL]
+Name = Idol
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[MAID]
+Name = Maid
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[WAITER]
+Name = Waiter
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[WAITRESS]
+Name = Waitress
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[WORKER]
+Name = Worker
+Gender = Male
+BaseMoney = 32
+#-------------------------------
 [PSYCHIC_M]
 Name = Psychic
 Gender = Male
 BaseMoney = 32
 #-------------------------------
 [PSYCHIC_F]
+Name = Psychic
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[MEDIUM]
+Name = Psychic
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[MEDIUM1]
 Name = Psychic
 Gender = Female
 BaseMoney = 32
