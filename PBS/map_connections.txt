@@ -1,104 +1,98 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Oldale Town (1) - Route 103 (5)
-1,North,0,5,South,0
-# Route 102 (6) - Route 103 (5)
-6,East,0,5,West,0
-# Hidden Grove (42) - Route 103 (5)
-42,South,50,5,North,0
-# Route 110 (15) - Route 103 (5)
-15,West,54,5,East,0
-# Mauville City (16) - Route 103 (5)
-16,West,75,5,East,0
-# Route 111 (20) - Route 103 (5)
-20,West,215,5,East,0
-# Route 102 (6) - Oldale Town (1)
-6,East,28,1,West,0
-# Route 101 (2) - Oldale Town (1)
-2,North,0,1,South,0
-# Route 101 (2) - Route 102 (6)
-2,West,0,6,East,48
-# Littleroot Town (3) - Route 102 (6)
-3,West,0,6,East,68
-# Petalburg City (7) - Route 102 (6)
-7,East,0,6,West,18
-# Route 104 (9) - Route 102 (6)
-9,East,33,6,West,0
-# Hidden Grove (42) - Route 102 (6)
-42,South,0,6,North,0
-# Littleroot Town (3) - Route 101 (2)
-3,North,0,2,South,0
-# Route 110 (15) - Route 101 (2)
-15,South,0,2,North,80
-# Route 104 (9) - Petalburg City (7)
-9,South,46,7,North,0
-# Route 105 (38) - Petalburg City (7)
+# Petalburg City (7) - Route 105 (42)
+7,West,36,42,East,0
+# Route 106 (39) - Route 105 (42)
+39,North,0,42,South,0
+# Route 114 (28) - Route 105 (42)
+28,West,273,42,East,0
+# Route 104 (South) (38) - Route 105 (42)
+38,South,0,42,North,0
+# Route 116 (32) - Route 105 (42)
+32,West,147,42,East,0
+# Route 102 (6) - Petalburg City (7)
+6,West,21,7,East,0
+# Route 104 (South) (38) - Petalburg City (7)
 38,East,0,7,West,0
+# Route 104 (North) (9) - Petalburg City (7)
+9,South,46,7,North,0
 # Rustboro City (34) - Petalburg City (7)
 34,East,111,7,West,0
 # Route 115 (33) - Petalburg City (7)
 33,East,191,7,West,0
-# Hidden Grove (42) - Petalburg City (7)
-42,West,51,7,East,0
-# Route 105 (38) - Route 104 (9)
-38,North,0,9,South,6
-# Rustboro City (34) - Route 104 (9)
-34,South,0,9,North,0
-# Route 116 (32) - Route 104 (9)
-32,South,0,9,North,46
-# Hidden Grove (42) - Route 104 (9)
-42,West,0,9,East,0
-# Route 106 (39) - Route 105 (38)
-39,North,0,38,South,0
-# Route 116 (32) - Route 105 (38)
-32,West,111,38,East,0
-# Route 114 (28) - Route 105 (38)
-28,West,237,38,East,0
-# Route 106 (39) - Dewford Town (40)
-39,South,58,40,North,0
-# Fallarbor Town (22) - Route 106 (39)
-22,West,346,39,East,0
-# Route 116 (32) - Rustboro City (34)
-32,West,0,34,East,0
-# Route 115 (33) - Rustboro City (34)
-33,South,0,34,North,0
-# Hidden Grove (42) - Rustboro City (34)
-42,North,0,34,South,76
-# Route 114 (28) - Rustboro City (34)
-28,West,126,34,East,0
-# Route 115 (33) - Route 116 (32)
-33,East,80,32,West,0
-# Hidden Grove (42) - Route 116 (32)
-42,North,0,32,South,30
-# Route 114 (28) - Route 115 (33)
-28,West,46,33,East,0
-# Route 117 (29) - Hidden Grove (42)
-29,West,48,42,East,0
+# Oldale Town (1) - Route 102 (6)
+1,West,0,6,East,33
+# Route 103 (5) - Route 102 (6)
+5,West,0,6,East,0
+# Route 101 (2) - Route 102 (6)
+2,West,0,6,East,51
+# Route 104 (North) (9) - Route 102 (6)
+9,East,30,6,West,0
+# Littleroot Town (3) - Route 102 (6)
+3,West,0,6,East,71
+# Route 103 (5) - Oldale Town (1)
+5,South,0,1,North,0
+# Route 101 (2) - Oldale Town (1)
+2,North,0,1,South,0
+# Route 110 (15) - Route 103 (5)
+15,West,51,5,East,0
+# Mauville City (16) - Route 103 (5)
+16,West,72,5,East,0
+# Route 111 (20) - Route 103 (5)
+20,West,212,5,East,0
+# Route 101 (2) - Route 110 (15)
+2,North,80,15,South,0
 # Mauville City (16) - Route 110 (15)
 16,South,0,15,North,0
-# Route 112 (21) - Route 110 (15)
-21,East,143,15,West,0
 # Route 113 (18) - Route 110 (15)
 18,East,165,15,West,0
 # Route 117 (29) - Route 110 (15)
 29,East,27,15,West,0
+# Route 112 (21) - Route 110 (15)
+21,East,143,15,West,0
+# Littleroot Town (3) - Route 101 (2)
+3,North,0,2,South,0
 # Route 111 (20) - Mauville City (16)
 20,South,0,16,North,0
-# Route 112 (21) - Mauville City (16)
-21,East,122,16,West,0
 # Route 113 (18) - Mauville City (16)
 18,East,144,16,West,0
 # Route 117 (29) - Mauville City (16)
 29,East,6,16,West,0
-# Route 112 (21) - Route 111 (20)
-21,East,0,20,West,18
+# Route 112 (21) - Mauville City (16)
+21,East,122,16,West,0
 # Route 113 (18) - Route 111 (20)
 18,East,4,20,West,0
 # Route 117 (29) - Route 111 (20)
 29,East,0,20,West,134
+# Route 112 (21) - Route 111 (20)
+21,East,0,20,West,18
 # Fallarbor Town (22) - Route 113 (18)
 22,East,0,18,West,0
+# Route 106 (39) - Fallarbor Town (22)
+39,East,0,22,West,344
 # Route 114 (28) - Fallarbor Town (22)
 28,East,0,22,West,0
+# Dewford Town (40) - Route 106 (39)
+40,North,0,39,South,58
+# Route 104 (South) (38) - Route 114 (28)
+38,East,0,28,West,237
+# Rustboro City (34) - Route 114 (28)
+34,East,0,28,West,126
+# Route 115 (33) - Route 114 (28)
+33,East,0,28,West,46
+# Route 104 (North) (9) - Route 104 (South) (38)
+9,South,6,38,North,0
+# Route 116 (32) - Route 104 (South) (38)
+32,West,111,38,East,0
+# Rustboro City (34) - Route 104 (North) (9)
+34,South,0,9,North,0
+# Route 116 (32) - Route 104 (North) (9)
+32,South,0,9,North,46
+# Route 116 (32) - Rustboro City (34)
+32,West,0,34,East,0
+# Route 115 (33) - Rustboro City (34)
+33,South,0,34,North,0
+# Route 115 (33) - Route 116 (32)
+33,East,80,32,West,0
 # Verdanturf Town (30) - Route 117 (29)
 30,East,1,29,West,0
