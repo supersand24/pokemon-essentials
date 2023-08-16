@@ -2,6 +2,32 @@
 #-------------------------------
 [002] # Route 101
 Land,21
-    20,POOCHYENA,5
-    40,ZIGZAGOON,5
-    40,WURMPLE,5
+    40,WURMPLE,1
+    40,ZIGZAGOON,1
+    20,POOCHYENA,1
+#-------------------------------
+[005] # Route 103
+Land,21
+    40,POOCHYENA,1,2
+    40,ZIGZAGOON,1,2
+    20,WINGULL,1,2
+Water,2
+    65,TENTACOOL,1,3
+    35,WINGULL,1,4
+#-------------------------------
+[006] # Route 102
+Land,21
+    20,POOCHYENA,1,2
+    30,ZIGZAGOON,1,2
+    30,WURMPLE,1,2
+    7,LOTAD,1,2
+    7,SEEDOT,1,2
+    4,RALTS,2
+    2,SURSKIT,2
+OldRod,2
+    35,GOLDEEN,1,3
+    60,MAGIKARP,1,5
+    5,CORPHISH,1,3
+Water,2
+    80,MARILL,1,2
+    20,SURSKIT,1,2

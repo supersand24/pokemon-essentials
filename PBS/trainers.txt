@@ -2,27 +2,27 @@
 #-------------------------------
 [RIVAL1,Rival1,1]
 LoseText = ...
-Pokemon = ZORUA,4
+Pokemon = ZORUA,2
     Moves = SCRATCH,LEER
-Pokemon = PANPOUR,3
+Pokemon = PANPOUR,1
 #-------------------------------
 [RIVAL1,Rival1,2]
 LoseText = ...
-Pokemon = ZORUA,4
+Pokemon = ZORUA,2
     Moves = SCRATCH,LEER
-Pokemon = PANSAGE,3
+Pokemon = PANSAGE,1
 #-------------------------------
 [RIVAL1,Rival1,3]
 LoseText = ...
-Pokemon = ZORUA,4
+Pokemon = ZORUA,2
     Moves = SCRATCH,LEER
-Pokemon = PANSEAR,3
+Pokemon = PANSEAR,1
 #-------------------------------
 [YOUNGSTER,Jimmy]
 LoseText = ...
-Pokemon = ZIGZAGOON,4
+Pokemon = ZIGZAGOON,2
 #-------------------------------
 [BUGCATCHER,Andrew]
 LoseText = ...
-Pokemon = SPINARAK,3
-Pokemon = SURSKIT,4
+Pokemon = SPINARAK,1
+Pokemon = SURSKIT,2
