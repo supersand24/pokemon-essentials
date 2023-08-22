@@ -13,11 +13,11 @@ SurfBGM = Surf
 BicycleBGM = Bicycle
 #-------------------------------
 [1]
-TrainerType = PLAYER_A
-WalkCharset = PLAYER_A_walk
-RunCharset = PLAYER_A_run
-CycleCharset = PLAYER_A_bike
-SurfCharset = PLAYER_A_surf
-DiveCharset = PLAYER_A_surf
-FishCharset = PLAYER_A_fish_offset
-SurfFishCharset = PLAYER_A_fish_offset
+TrainerType = CODY
+WalkCharset = trainer_CODY_walk
+RunCharset = trainer_CODY_run
+CycleCharset = trainer_CODY_bike
+SurfCharset = trainer_CODY_surf
+DiveCharset = trainer_CODY_surf
+FishCharset = trainer_CODY_fish_offset
+SurfFishCharset = trainer_CODY_fish_offset
