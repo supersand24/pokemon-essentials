@@ -16,12 +16,13 @@ EventHandlers.add(:on_wild_pokemon_created, :level_scaling,
 EventHandlers.add(:on_trainer_load, :level_scaling,
   proc { |trainer|
     if trainer != 0
-      average_level = 0
-      trainer.party.each { |pokemon| average_level += pokemon.level }
-      average_level /= trainer.party.length
+      balancedLevel = pbBalancedLevel($player.party) - 5
+      balancedLevel = balancedLevel.clamp(pbGet(27) - 1, GameData::GrowthRate.max_level)
+      echoln "Min Level: #{pbGet(27)} | Party Level: #{balancedLevel}"
 
       for pokemon in trainer.party
         old_level = pokemon.level
+        pokemon.level += balancedLevel
         LevelScaling.trainerPokemon(pokemon)
         echoln "#{pokemon.species} level #{old_level} -> #{pokemon.level}"
       end
@@ -48,6 +49,7 @@ EventHandlers.add(:on_end_battle, :update_partner_levels,
 class LevelScaling
   
   def self.trainerPokemon(pokemon)
+
     # Evolution part
     LevelScaling.setNewStage(pokemon, true) if @@settings[:automatic_evolutions]
 
@@ -56,8 +58,8 @@ class LevelScaling
   end
 
   def self.wildPokemon(pokemon)
-    new_level = pbBalancedLevel($player.party) - ( @@settings[:base_minus] )
-    echoln "Max Level: #{pbGet(26)} | Party Level: #{new_level}"
+    new_level = pbBalancedLevel($player.party) - 7
+    echoln "Max Level: #{pbGet(26) + 1} | Party Level: #{new_level}"
     pokemon.level += new_level.clamp(1, pbGet(26))
 	  pokemon.obtain_level = pokemon.level
 
@@ -172,7 +174,6 @@ class LevelScaling
       temporary: false,
       first_evolution_level: 20,
       second_evolution_level: 40,
-      base_minus: 7,
       update_moves: true,
       automatic_evolutions: true
     }

@@ -26,3 +26,15 @@ Pokemon = ZIGZAGOON,2
 LoseText = ...
 Pokemon = SPINARAK,1
 Pokemon = SURSKIT,2
+#-------------------------------
+[LASS,Lucy]
+LoseText = ...
+Pokemon = RALTS,2
+#-------------------------------
+[YOUNGSTER,Ryan]
+LoseText = ...
+Pokemon = BIDOOF,1
+#-------------------------------
+[PICNICKER,Sarah]
+LoseText = ...
+Pokemon = ODDISH,2

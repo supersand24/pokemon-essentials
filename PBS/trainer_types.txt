@@ -4,11 +4,13 @@
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
+SkillLevel = 100
 #-------------------------------
 [NICK]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 46
+SkillLevel = 100
 #-------------------------------
 [POKEMONTRAINER_Red]
 Name = Pokémon Trainer
