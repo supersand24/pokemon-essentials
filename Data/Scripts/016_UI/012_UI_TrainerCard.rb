@@ -64,15 +64,12 @@ class PokemonTrainerCard_Scene
     ]
     pbDrawTextPositions(overlay, textPositions)
     x = 72
-    region = pbGetCurrentRegion(0) # Get the current region
-    imagePositions = []
-    8.times do |i|
-      if $player.badges[i + (region * 8)]
-        imagePositions.push(["Graphics/UI/Trainer Card/icon_badges", x, 310, i * 32, region * 32, 32, 32])
-      end
+    for i in 0...$player.badges.length
+      badge = $player.badges[i].to_s
+      @sprites["badge#{i}"] = IconSprite.new(x, 310, @viewport)
+      @sprites["badge#{i}"].setBitmap("Graphics/UI/Trainer Card/#{badge}")
       x += 48
     end
-    pbDrawImagePositions(overlay, imagePositions)
   end
 
   def pbTrainerCard

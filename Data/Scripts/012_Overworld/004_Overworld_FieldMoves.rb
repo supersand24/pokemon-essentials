@@ -54,12 +54,15 @@ def pbHiddenMoveEvent
 end
 
 def pbCheckHiddenMoveBadge(badge = -1, showmsg = true)
-  return true if badge < 0   # No badge requirement
+  if (badge.is_a?(Integer))
+    return true if badge < 0   # No badge requirement
+  end
   return true if $DEBUG
-  if (Settings::FIELD_MOVES_COUNT_BADGES) ? $player.badge_count >= badge : $player.badges[badge]
+  if (badge.is_a?(Symbol)) ? $player.badges.include?(badge) : $player.badge_count >= badge
     return true
   end
-  pbMessage(_INTL("Sorry, a new Badge is required.")) if showmsg
+  msg = (badge.is_a?(Symbol)) ? _INTL("Sorry, a new Badge is required.") : _INTL("Sorry, more Badges are required.")
+  pbMessage(msg) if showmsg
   return false
 end
 

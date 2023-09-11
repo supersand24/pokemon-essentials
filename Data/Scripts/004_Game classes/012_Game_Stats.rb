@@ -137,7 +137,7 @@ class GameStats
     # Special stats
     @gym_leader_attempts           = [0] * 50   # Incremented in Gym Leader events (50 is arbitrary but suitably large)
     @gym_leader_battles_won        = [0] * 50   # Incremented in Gym Leader events (50 is arbitrary but suitably large)
-    @times_to_get_badges           = []         # Set with set_time_to_badge(number) in Gym Leader events
+    @times_to_get_badges           = {}         # Set with set_time_to_badge(number) in Gym Leader events
     @elite_four_attempts           = 0          # Incremented in door event leading to the first E4 member
     @hall_of_fame_entry_count      = 0          # Incremented in Hall of Fame event
     @time_to_enter_hall_of_fame    = 0          # Set with set_time_to_hall_of_fame in Hall of Fame event

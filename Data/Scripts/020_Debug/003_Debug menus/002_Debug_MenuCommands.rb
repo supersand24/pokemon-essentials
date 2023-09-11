@@ -882,25 +882,28 @@ MenuHandlers.add(:debug_menu, :set_money, {
 MenuHandlers.add(:debug_menu, :set_badges, {
   "name"        => _INTL("Set Gym Badges"),
   "parent"      => :player_menu,
-  "description" => _INTL("Toggle possession of each Gym Badge."),
+  "description" => _INTL("Toggle possession of Gym Badges."),
   "effect"      => proc {
     badgecmd = 0
     loop do
       badgecmds = []
-      badgecmds.push(_INTL("Give all"))
+      badgecmds.push(_INTL("Give individual Badge"))
       badgecmds.push(_INTL("Remove all"))
-      24.times do |i|
-        badgecmds.push(($player.badges[i] ? "[Y]" : "[  ]") + " " + _INTL("Badge {1}", i + 1))
-      end
       badgecmd = pbShowCommands(nil, badgecmds, -1, badgecmd)
       break if badgecmd < 0
       case badgecmd
-      when 0   # Give all
-        24.times { |i| $player.badges[i] = true }
+      when 0   # Give specific badge
+        badge = pbMessageFreeText("Give which Badge?",_INTL(""),false,20)
+        badge = badge.upcase
+        if pbResolveBitmap("Graphics/UI/Trainer Card/#{badge}")
+          pbGiveBadge(badge.to_sym)
+          pbMessage(_INTL("Gave the {1} Badge.", badge.capitalize))
+        else
+          pbMessage(_INTL("{1} Badge does not exist.", badge.capitalize))
+        end
       when 1   # Remove all
-        24.times { |i| $player.badges[i] = false }
-      else
-        $player.badges[badgecmd - 2] = !$player.badges[badgecmd - 2]
+        $player.badges = []
+          pbMessage(_INTL("Cleared all Badges."))
       end
     end
   }

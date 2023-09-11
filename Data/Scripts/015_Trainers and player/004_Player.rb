@@ -39,7 +39,7 @@ class Player < Trainer
     super
     @character_ID          = 0
     @outfit                = 0
-    @badges                = [false] * 8
+    @badges                = []
     @money                 = GameData::Metadata.get.start_money
     @coins                 = 0
     @battle_points         = 0
@@ -104,7 +104,7 @@ class Player < Trainer
 
   # @return [Integer] the number of Gym Badges owned by the player
   def badge_count
-    return @badges.count { |badge| badge == true }
+    return @badges.length
   end
 
   #=============================================================================
